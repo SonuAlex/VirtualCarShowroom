@@ -1,10 +1,11 @@
 import React from 'react'
-import './Auction'
+import './Auction.css'
 
-const Autcion = () => {
+const Auction = () => {
   return (
-    <div>Autcion</div>
+    <div className='auction'>
+    </div>
   )
 }
 
-export default Autcion
+export default Auction
