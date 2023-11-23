@@ -25,7 +25,7 @@
     position: absolute;
     background: var(--secondaryColor);
     width: 88%;
-    top: 7rem;
+    top: -100rem;
     right: 50%;
     left: 50%;
     transform: translate(-50%);
@@ -71,4 +71,34 @@
   .header .menu .listItem:hover a {
     color: var(--whiteColor);
   }
+}
+.header .signup {
+  gap: 0.5rem;
+}
+.header .signup .text {
+  padding: 3px 10px;
+  background: var(--primaryColor);
+  border-radius: 3px;
+  color: var(--whiteColor);
+  cursor: pointer;
+  font-size: 14px;
+}
+.header .signup .text:hover {
+  background: var(--secondaryColor);
+  color: var(--blackColor);
+}
+.header .signup .toggleNavbarIcon {
+  background: none;
+  color: var(--primaryColor);
+  font-weight: 600;
+  font-size: 25px;
+}
+.header .showNavbar {
+  top: 7rem;
+  transition: 0.5s ease;
+}
+
+.addBg {
+  background: var(--secondaryColor);
+  box-shadow: none;
 }/*# sourceMappingURL=Navbar.css.map */

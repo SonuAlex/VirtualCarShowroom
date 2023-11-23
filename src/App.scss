@@ -54,7 +54,7 @@ p{
     padding: 10px 15px;
     border-radius: 10px;
     font-weight: 600;
-    color: var(--blackColor);
+    color: var(--whiteColor);
     font-size: 12px;
     &:hover{
         background: var(--secondaryColor);
@@ -83,6 +83,6 @@ img{
 }
 
 .secTitle{
-    color: var(--textcolor);
+    color: var(--blackColor);
     font-size: 20px;
 }
