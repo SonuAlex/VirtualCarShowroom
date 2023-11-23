@@ -22,8 +22,7 @@
                     font-size: 30px;
                     cursor: pointer;
                     &:hover{
-                        background:
-                        var(--primaryColor);
+                        background: var(--primaryColor);
                         color: var(--whiteColor);
 
                     }
@@ -63,14 +62,15 @@
                }
                .reviewerDiv{
                 justify-content: space-between;
-                margin-top: 1rem;align-items: flex-start;
+                margin-top: 1rem;
+                align-items: flex-start;
 
                 .leftdiv{
                     gap: .8rem;
                     .reviewerImage{
                         border: 2px solid var(--whiteColor);
                         height: 40px;
-                        width:40px;
+                        width: 40px;
                         overflow: hidden;
                         border-radius: 50%;
                         box-shadow:0 4px 5px rgb(222, 222,222);
