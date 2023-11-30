@@ -50,9 +50,7 @@ const Trending = () => {
               </span>
             </div>
           </div>
-        </div>
 
-        <div className="carContainer grid">
           <div className="singleCar grid">
             <div className="imgDiv">
               <img src={car2} alt="Car Image" />
@@ -76,9 +74,7 @@ const Trending = () => {
               </span>
             </div>
           </div>
-        </div>
 
-        <div className="carContainer grid">
           <div className="singleCar grid">
             <div className="imgDiv">
               <img src={car3} alt="Car Image" />
